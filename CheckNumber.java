@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 public class CheckNumber{
 	
-	/*
-	@author joe_pc	
-	*/
 	
 	public static void main(String[] args){
 		
