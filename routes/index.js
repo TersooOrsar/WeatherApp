@@ -22,7 +22,7 @@ router.post('/', function (req, res, next) {
             if(weather.main == undefined){
                 res.render('index', {weather: null, error: 'Error, please try again'});
             } else {
-                var weatherText =  "It's" +weather.main.temp+ "degrees in" +weather.name;
+                var weatherText =  "It's "+weather.main.temp+" degrees celsius  in "+weather.name ;
                 res.render('index', {weather: weatherText, error: null});
             }
         }
