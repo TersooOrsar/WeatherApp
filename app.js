@@ -7,6 +7,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 
+var apiKey = '2d27b64b6fa9e6dad465a897c83c1c1a';
+
 var app = express();
 
 // view engine setup
